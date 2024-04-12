@@ -1,4 +1,4 @@
-a=int(input("enter your marks"))
+a=float(input("enter your marks: "))
 if a>=80:
     print("A")
 elif a>=70:
@@ -7,5 +7,5 @@ elif a>=60:
     print("C")
 elif a>50:
     print("D")
-elif  a<50:
+else:
     print("E")
